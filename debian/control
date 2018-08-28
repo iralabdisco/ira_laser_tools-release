@@ -1,0 +1,13 @@
+Source: ros-kinetic-ira-laser-tools
+Section: misc
+Priority: extra
+Maintainer: Augusto <augusto.ballardini@disco.unimib.it>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, libvtk6-qt-dev, ros-kinetic-catkin, ros-kinetic-laser-geometry, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: http://www.ros.org/wiki/ira_laser_tools
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ira-laser-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, libvtk6-qt-dev, ros-kinetic-laser-geometry, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: The ira_laser_tools package.
+ These nodes are meant to provide some utils for lasers, like listen to different laser scan sources and merge them in a single scan or generate virtual laser scans from a pointcloud.
