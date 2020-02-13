@@ -1,3 +1,26 @@
+## ira_laser_tools (kinetic) - 1.0.3-1
+
+The packages in the `ira_laser_tools` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release ira_laser_tools --rosdistro kinetic` on `Thu, 13 Feb 2020 10:28:29 -0000`
+
+The `ira_laser_tools` package was released.
+
+Version of package(s) in repository `ira_laser_tools`:
+
+- upstream repository: https://github.com/iralabdisco/ira_laser_tools.git
+- release repository: https://github.com/iralabdisco/ira_laser_tools-release.git
+- rosdistro version: `1.0.2-0`
+- old version: `1.0.2-0`
+- new version: `1.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.1`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## ira_laser_tools (lunar) - 1.0.2-0
 
 The packages in the `ira_laser_tools` repository were released into the `lunar` distro by running `/usr/bin/bloom-release ira_laser_tools --track lunar --rosdistro lunar` on `Tue, 28 Aug 2018 12:04:57 -0000`
