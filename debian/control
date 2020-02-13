@@ -1,0 +1,13 @@
+Source: ros-melodic-ira-laser-tools
+Section: misc
+Priority: optional
+Maintainer: Augusto <augusto.ballardini@disco.unimib.it>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, libvtk6-qt-dev, ros-melodic-catkin, ros-melodic-laser-geometry, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: http://www.ros.org/wiki/ira_laser_tools
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ira-laser-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, libvtk6-qt-dev, ros-melodic-laser-geometry, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Description: The ira_laser_tools package.
+ These nodes are meant to provide some utils for lasers, like listen to different laser scan sources and merge them in a single scan or generate virtual laser scans from a pointcloud.
