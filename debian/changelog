@@ -1,0 +1,82 @@
+ros-noetic-ira-laser-tools (1.0.5-2buster) buster; urgency=high
+
+  * add new mantainer email
+  * fix launch before laser scan is available
+  * add a try catch for first non valid tf
+  * Retrying compare topics between ROS master and Token
+  * Contributors: JackFrost67
+
+ -- Augusto <augusto.ballardini@unimib.it>  Fri, 06 Aug 2021 22:00:00 -0000
+
+ros-noetic-ira-laser-tools (1.0.4-2buster) buster; urgency=high
+
+  * fix worning
+    "<command-line>:0:0: warning: missing whitespace after the macro name"
+  * change email maintainer
+  * Contributors: Pietro Colombo
+
+ -- Augusto <augusto.ballardini@unimib.it>  Thu, 13 Feb 2020 23:00:00 -0000
+
+ros-noetic-ira-laser-tools (1.0.3-2buster) buster; urgency=high
+
+  * fix #14 <https://github.com/iralabdisco/ira_laser_tools/issues/14>
+    now we use math library for pi
+  * bugfix
+  * Merge branch 'kinetic'
+  * fix issue fix`#14 <https://github.com/iralabdisco/ira_laser_tools/issues/14>`_
+  * Create LICENSE
+  * Create LICENSE
+  * Merge pull request #11 <https://github.com/iralabdisco/ira_laser_tools/issues/11> from mikaelarguedas/patch-1
+    add libvtk-qt dependency to fix debian stretch builds
+  * add libvtk-qt dependency to fix debian stretch builds
+  * Contributors: Mikael Arguedas, Pietro Colombo, pietrocolombo
+
+ -- Augusto <augusto.ballardini@unimib.it>  Wed, 12 Feb 2020 23:00:00 -0000
+
+ros-noetic-ira-laser-tools (1.0.2-2buster) buster; urgency=high
+
+  * add libvtk-qt dependency to fix debian stretch builds
+    and link to paper in README.md
+  * Contributors: Pietro Colombo
+
+ -- Augusto <augusto.ballardini@unimib.it>  Mon, 27 Aug 2018 22:00:00 -0000
+
+ros-noetic-ira-laser-tools (1.0.1-2buster) buster; urgency=high
+
+
+
+ -- Augusto <augusto.ballardini@unimib.it>  Tue, 17 Jul 2018 22:00:00 -0000
+
+ros-noetic-ira-laser-tools (1.0.0-2buster) buster; urgency=high
+
+  * add url for wiki in pakage.xml
+  * adding license
+  * introduce a param in param file
+    expand the range limit of laser
+    and minor bug fix
+  * Merge pull request #1 <https://github.com/iralabdisco/ira_laser_tools/issues/1> from leonziegler/installprocedure
+    Added possibility to install artifacts.
+    Merged. Thanks :-)
+  * Merge branch 'master' of projects.ira.disco.unimib.it:/repository/git/ira_laser_tools
+    Conflicts:
+    CMakeLists.txt
+  * this commit fixes #265 <https://github.com/iralabdisco/ira_laser_tools/issues/265> @5m
+  * Fixed the Eigen3 required in the CMakeLists.txt
+  * updating readme
+  * removing eigen dependency
+  * Update laserscan_virtualizer.launch
+    description of base_frame param. updated
+  * Added possibility to install artifacts.
+  * changes to README.md
+  * global refactoring
+  * Merge branch 'master' of https://github.com/iralabdisco/ira_laser_tools
+  * going to version 1.0; useful tutorial on .launch file for laservirtualizer; the overall virtualscanner procedure is now simpler
+  * First README.md version
+  * adding readme file
+  * Fixed the include bug
+  * First commit
+  * Contributors: Augusto Luis Ballardini, Axel Furlan, Fabio Nava, Iralab Universita Milano Bicocca, Leon Ziegler
+
+ -- Augusto <augusto.ballardini@unimib.it>  Wed, 11 Jul 2018 11:30:16 +0200
+
+
