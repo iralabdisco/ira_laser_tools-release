@@ -72,8 +72,8 @@ tracks:
     patches: null
     release_inc: '2'
     release_repo_url: null
-    release_tag: :{version}
+    release_tag: noetic-:{version}
     ros_distro: noetic
     vcs_type: git
     vcs_uri: https://github.com/iralabdisco/ira_laser_tools.git
-    version: :{ask}
+    version: :{auto}
