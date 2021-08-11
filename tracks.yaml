@@ -46,11 +46,11 @@ tracks:
     patches: null
     release_inc: '5'
     release_repo_url: null
-    release_tag: :{version}
+    release_tag: melodic-:{version}
     ros_distro: melodic
     vcs_type: git
     vcs_uri: https://github.com/iralabdisco/ira_laser_tools.git
-    version: :{ask}
+    version: :{auto}
   noetic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
