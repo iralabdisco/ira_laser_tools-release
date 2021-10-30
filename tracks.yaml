@@ -40,14 +40,14 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: melodic
+    devel_branch: ros1-master
     last_release: melodic-1.0.6
     last_version: 1.0.6
     name: ira_laser_tools
     patches: null
     release_inc: '1'
     release_repo_url: null
-    release_tag: melodic-:{version}
+    release_tag: :{version}
     ros_distro: melodic
     vcs_type: git
     vcs_uri: https://github.com/iralabdisco/ira_laser_tools.git
