@@ -1,0 +1,13 @@
+Source: ros-noetic-ira-laser-tools
+Section: misc
+Priority: optional
+Maintainer: Augusto <augusto.ballardini@unimib.it>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, libvtk7-qt-dev, ros-noetic-catkin, ros-noetic-laser-geometry, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Homepage: http://www.ros.org/wiki/ira_laser_tools
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ira-laser-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, libvtk7-qt-dev, ros-noetic-laser-geometry, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Description: The ira_laser_tools package.
+ These nodes are meant to provide some utils for lasers, like listen to different laser scan sources and merge them in a single scan or generate virtual laser scans from a pointcloud.
