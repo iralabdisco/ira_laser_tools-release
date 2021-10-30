@@ -42,7 +42,7 @@ tracks:
       :{release_inc} --os-name rhel
     devel_branch: ros1-master
     last_release: melodic-1.0.6
-    last_version: 1.0.6
+    last_version: 1.0.7
     name: ira_laser_tools
     patches: null
     release_inc: '1'
