@@ -69,10 +69,10 @@ tracks:
       :{release_inc} --os-name rhel
     devel_branch: ros1-master
     last_release: noetic-1.0.6
-    last_version: 1.0.6
+    last_version: 1.0.7
     name: ira_laser_tools
     patches: null
-    release_inc: '2'
+    release_inc: '1'
     release_repo_url: null
     release_tag: :{version}
     ros_distro: noetic
